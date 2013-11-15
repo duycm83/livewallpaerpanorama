@@ -32,9 +32,12 @@ public class Renderer extends RajawaliRenderer {
 		 * Skybox images by Emil Persson, aka Humus. http://www.humus.name humus@comhem.se
 		 */
 		try {
-			getCurrentScene().setSkybox(R.drawable.posx, R.drawable.negx,
-					R.drawable.posy, R.drawable.negy, R.drawable.posz,
-					R.drawable.negz);
+//			getCurrentScene().setSkybox(R.drawable.posx, R.drawable.negx,
+//					R.drawable.posy, R.drawable.negy, R.drawable.posz,
+//					R.drawable.negz);
+			getCurrentScene().setSkybox(R.drawable.image1, R.drawable.image2,
+					R.drawable.image3, R.drawable.image4, R.drawable.image1,
+					R.drawable.image2);
 		} catch (TextureException e) {
 			e.printStackTrace();
 		}
